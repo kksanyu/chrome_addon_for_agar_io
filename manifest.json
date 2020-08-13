@@ -1,0 +1,17 @@
+{
+    "name": "chrome_addon_for_agar_io",
+    "version": "0.0.1",
+    "description": "",
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+    "permissions": [
+        "tabs",
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>",
+        "unlimitedStorage"
+    ]
+} 
